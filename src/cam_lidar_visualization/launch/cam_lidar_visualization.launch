@@ -1,0 +1,17 @@
+<?xml version="1.0"?> 
+<launch>
+    <arg name="rviz" default="true" />
+
+    <node pkg="cam_lidar_visualization" type="cam_lidar_visualization" name="cam_lidar_visualization" output="screen">
+                
+        <param name="param_d_extrinsic_calibration_roll_deg_" value="-90."/>
+        <param name="param_d_extrinsic_calibration_pitch_deg_" value="0."/>
+        <param name="param_d_extrinsic_calibration_yaw_deg_" value="-90."/>
+
+        <param name="param_d_extrinsic_calibration_x_m_" value="2.00000946443 - 0.999989478687"/>
+        <param name="param_d_extrinsic_calibration_y_m_" value="7.7746787408e-07 + 7.7564081824e-08)"/>
+        <param name="param_d_extrinsic_calibration_z_m_" value="1.99999993294 - 1.99999995157"/>
+        
+    </node>
+
+</launch>
